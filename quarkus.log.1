@@ -1,0 +1,34 @@
+2023-10-17 02:02:47,921 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.qua.cor.CamelBootstrapRecorder] (Quarkus Main Thread) Bootstrap runtime: org.apache.camel.quarkus.main.CamelMainRuntime
+2023-10-17 02:02:47,923 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.mai.MainSupport] (Quarkus Main Thread) Apache Camel (Main) 4.0.0 is starting
+2023-10-17 02:02:47,992 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.mai.BaseMainSupport] (Quarkus Main Thread) Auto-configuration summary
+2023-10-17 02:02:47,992 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.mai.BaseMainSupport] (Quarkus Main Thread)     [MicroProfilePropertiesSource] camel.main.routesIncludePattern=classpath:routes/my-routes.xml
+2023-10-17 02:02:47,992 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.mai.BaseMainSupport] (Quarkus Main Thread)     [MicroProfilePropertiesSource] camel.context.name=quarkus-camel-example-timer-log
+2023-10-17 02:02:48,099 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.sup.LifecycleStrategySupport] (Quarkus Main Thread) Autowired property: exchangeFormatter on component: log as exactly one instance of type: org.apache.camel.spi.ExchangeFormatter (org.acme.timer.log.ExchangeFormatterProducer$1) found in the registry
+2023-10-17 02:02:48,113 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Quarkus Main Thread) Apache Camel 4.0.0 (quarkus-camel-example-timer-log) is starting
+2023-10-17 02:02:48,122 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.mai.BaseMainSupport] (Quarkus Main Thread) Property-placeholders summary
+2023-10-17 02:02:48,122 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.mai.BaseMainSupport] (Quarkus Main Thread)     [MicroProfilePropertiesSource] timer.period=1s
+2023-10-17 02:02:48,123 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Quarkus Main Thread) Routes startup (started:2)
+2023-10-17 02:02:48,124 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Quarkus Main Thread)     Started route1 (timer://foo)
+2023-10-17 02:02:48,124 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Quarkus Main Thread)     Started xml-route (timer://from-xml)
+2023-10-17 02:02:48,125 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Quarkus Main Thread) Apache Camel 4.0.0 (quarkus-camel-example-timer-log) started in 11ms (build:0ms init:0ms start:11ms)
+2023-10-17 02:02:48,237 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [io.quarkus] (Quarkus Main Thread) camel-quarkus-examples-timer-log 3.4.0 on JVM (powered by Quarkus 3.4.1) started in 2.452s. Listening on: http://localhost:8080
+2023-10-17 02:02:48,238 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2023-10-17 02:02:48,238 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [camel-bean, camel-core, camel-log, camel-microprofile-health, camel-timer, camel-xml-io-dsl, cdi, smallrye-context-propagation, smallrye-health, vertx]
+2023-10-17 02:02:49,133 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer-xml] (Camel (camel-1) thread #2 - timer://from-xml) [33mXML DSL: Hello World![0m
+2023-10-17 02:02:49,133 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer] (Camel (camel-1) thread #1 - timer://foo) [34mJava DSL: Hello World![0m
+2023-10-17 02:02:50,124 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer] (Camel (camel-1) thread #1 - timer://foo) [34mJava DSL: Hello World![0m
+2023-10-17 02:02:50,124 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer-xml] (Camel (camel-1) thread #2 - timer://from-xml) [33mXML DSL: Hello World![0m
+2023-10-17 02:02:51,124 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer-xml] (Camel (camel-1) thread #2 - timer://from-xml) [33mXML DSL: Hello World![0m
+2023-10-17 02:02:51,124 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer] (Camel (camel-1) thread #1 - timer://foo) [34mJava DSL: Hello World![0m
+2023-10-17 02:02:52,124 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer] (Camel (camel-1) thread #1 - timer://foo) [34mJava DSL: Hello World![0m
+2023-10-17 02:02:52,124 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer-xml] (Camel (camel-1) thread #2 - timer://from-xml) [33mXML DSL: Hello World![0m
+2023-10-17 02:02:53,125 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer] (Camel (camel-1) thread #1 - timer://foo) [34mJava DSL: Hello World![0m
+2023-10-17 02:02:53,125 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer-xml] (Camel (camel-1) thread #2 - timer://from-xml) [33mXML DSL: Hello World![0m
+2023-10-17 02:02:54,126 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer-xml] (Camel (camel-1) thread #2 - timer://from-xml) [33mXML DSL: Hello World![0m
+2023-10-17 02:02:54,126 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer] (Camel (camel-1) thread #1 - timer://foo) [34mJava DSL: Hello World![0m
+2023-10-17 02:02:55,127 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer-xml] (Camel (camel-1) thread #2 - timer://from-xml) [33mXML DSL: Hello World![0m
+2023-10-17 02:02:55,127 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer] (Camel (camel-1) thread #1 - timer://foo) [34mJava DSL: Hello World![0m
+2023-10-17 02:02:56,127 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer-xml] (Camel (camel-1) thread #2 - timer://from-xml) [33mXML DSL: Hello World![0m
+2023-10-17 02:02:56,127 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer] (Camel (camel-1) thread #1 - timer://foo) [34mJava DSL: Hello World![0m
+2023-10-17 02:02:57,128 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer-xml] (Camel (camel-1) thread #2 - timer://from-xml) [33mXML DSL: Hello World![0m
+2023-10-17 02:02:57,128 borealis18 camel-quarkus-examples-timer-log-dev.jar[25980] INFO  [timer] (Camel (camel-1) thread #1 - timer://foo) [34mJava DSL: Hello World![0m

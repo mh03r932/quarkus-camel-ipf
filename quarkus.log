@@ -1,0 +1,2 @@
+2023-10-17 02:03:08,633 borealis18 JUnitStarter[27256] INFO  [org.apa.cam.qua.cor.dep.mai.CamelMainHotDeploymentProcessor] (build-18) HotDeployment files:
+2023-10-17 02:03:08,667 borealis18 JUnitStarter[27256] INFO  [org.apa.cam.qua.cor.dep.mai.CamelMainHotDeploymentProcessor] (build-18) - routes/my-routes.xml
