@@ -46,21 +46,13 @@ $ java -jar target/quarkus-app/quarkus-run.jar
 [io.quarkus] (main) camel-quarkus-examples-... started in 1.163s.
 ----
 
-==== Native mode
+==== IPF
 
-IMPORTANT: Native mode requires having GraalVM and other tools installed. Please check the Prerequisites section
-of https://camel.apache.org/camel-quarkus/latest/first-steps.html#_prerequisites[Camel Quarkus User guide].
+This projects integrates some depdendencies from https://github.com/oehf/ipf to see if they work with Camel Quarkus.
+It was necessary to add a few dependencie exclusions to remove camel depedenceies that are not compatible with Camel Quarkus.
 
-To prepare a native executable using GraalVM, run the following command:
-
-[source,shell]
-----
-$ mvn clean package -Pnative
-$ ./target/*-runner
-...
-[io.quarkus] (main) camel-quarkus-examples-... started in 0.013s.
-...
-----
+This code is not tested yet but it does compile and quarkus camel does start. It remains to be seen if the ipf components
+work as expected.
 
 == Feedback
 
